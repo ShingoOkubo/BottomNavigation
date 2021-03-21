@@ -1,0 +1,21 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/icon1">
+
+    <fragment android:id="@+id/icon1"
+        android:name="com.example.bottomnavigation.Fragment1"
+        android:label="Fragment1"/>
+
+    <fragment android:id="@+id/icon2"
+        android:name="com.example.bottomnavigation.Fragment2"
+        android:label="Fragment2"/>
+
+    <fragment android:id="@+id/icon3"
+        android:name="com.example.bottomnavigation.Fragment3"
+        android:label="Fragment3"/>
+
+    <fragment android:id="@+id/icon4"
+        android:name="com.example.bottomnavigation.Fragment4"
+        android:label="Fragment4"/>
+</navigation>
